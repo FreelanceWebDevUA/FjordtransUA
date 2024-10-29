@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FjordtransUA - transport ponadgabarytowy</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" style="border-bottom: 1px solid var(--black-800, #2C2C2C);">
+			<div class="header__pb">
+				<div class="header__container">
+					<div class="header__block block-header">
+						<div class="block-header__logotype">
+							<a href="https://fjordtrans.com.ua/" class="block-header__logo"><img src="img/icon/logo-white.svg" alt="logo"></a>
+							<a href="https://fjordtrans.com.ua/" class="block-header__logo-black"><img src="img/icon/logo-black.svg" alt="logo-black"></a>
+						</div>
+						<style>
+							@media (min-width: 1050px) {
+										.menu {
+										margin-left:  100px;
+								}
+							}
+							</style>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="services-en.html" class="menu__link">Services</a></li>
+									<!-- <li class="menu__item"><a data-goto=".partners" href="" class="menu__link">Partners</a></li> -->
+									<li class="menu__item"><a data-goto=".about" href="" class="menu__link">About us</a></li>
+									<li class="menu__item"><a href="contacts-en.html" class="menu__link">Contacts</a></li>
+									<ul data-da=".body-header__dynamic,991.98" class="body-header__language language">
+										<li class="language-act"><img src="img/icon/eng.svg" alt=""><a href="#" class="language-active _icon-down-r"><span>Eng</span></a>
+											<ul class="lan-act">
+												<li><a href="index.html"><img src="img/icon/ukraine.svg" alt="icon-pl"><span>Укр</span></a></li>
+												<li><a href="index-pl.html"><img src="img/icon/poland.svg" alt="icon-dk"><span>Pl</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</ul>
+							</nav>
+						</div>
+						<div class="block-header__body body-header">
+							<div class="body-header__items">
+								<div class="body-header__dynamic"></div>
+								<div class="block-header__phone">
+									<a href="tel:+380665898476"><span>+380 66 589 8476</span></a>
+								</div>
+								<div class="body-header__consultation consultation">
+									<button data-popup="#popup" type="button" class="consultation__button">Contact us</button>
+								</div>
+							</div>
+							<button type="button" class="menu__icon icon-menu"><span></span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page-pb">
+				<section class="hero">
+					<div class="hero__color-bg">
+						<div class="hero__container">
+							<div class="hero__image-bg">
+							</div>
+							<div class="hero__block block-hero">
+								<div class="block-hero__body body-hero">
+									<div class="block-hero__title">
+										<h1>Large <span>cargos</span></h1>
+									</div>
+									<div class="block-hero__sub-title">
+										<p>Large <span>opportunities</span></p>
+									</div>
+									<div class="body-hero__items">
+										<div class="body-hero__image">
+											<a data-popup="#popup" href="#">
+												<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 150 150" class="image-hero" fill="currentColor">
+													<circle cx="75" cy="75" r="73.5" stroke="#ED1C24" stroke-width="3" />
+													<path d="M57.1808 51.1368H98.864M98.864 51.1368V92.82M98.864 51.1368C92.5281 57.4726 64.4059 85.5949 51.1367 98.8641" stroke="white" stroke-width="3" />
+												</svg>
+											</a>
+										</div>
+										<div class="body-hero__text">
+											<span>Professional transportation of heavy and oversized cargo, trucks, tractors, and other equipment throughout Ukraine and Europe. Contact us and discover more</span>
+											<p>Professional transportation of heavy and oversized cargo</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-hero__social social-hero">
+									<div class="social-hero__image">
+										<a href="#">
+											<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" class="facebook-hero" fill="currentColor">
+												<path d="M38.9983 20.0008V20.2551C38.8807 29.2181 32.5554 36.6849 24.126 38.5505V26.7827H27.7862H28.6445L28.7746 25.9343L29.6613 20.1524L29.8379 19.0008H28.6729H24.126V16.2473C24.126 15.6018 24.2858 15.0872 24.5804 14.7465C24.8515 14.4329 25.36 14.1239 26.3844 14.1239H28.9045H29.9045V13.1239V8.20199V7.358L29.0725 7.21621L28.9045 8.20199C29.0725 7.21621 29.0725 7.21619 29.0724 7.21618L29.0721 7.21614L29.0715 7.21603L29.0696 7.21572L29.0634 7.21467L29.0413 7.21098L28.9595 7.19772C28.8889 7.18646 28.7869 7.1706 28.6582 7.15169C28.401 7.11387 28.0361 7.0637 27.6013 7.01357C26.736 6.9138 25.575 6.81198 24.4277 6.81198C21.9422 6.81198 19.7764 7.5691 18.2308 9.11612C16.6843 10.6642 15.874 12.8876 15.874 15.594V18.9991H11.7972H10.7972V19.9991V25.781V26.781H11.7972H15.874V38.5488C7.36498 36.6656 1 29.0749 1 20.0008C1 9.50592 9.50604 1 19.9992 1C30.4923 1 38.9983 9.50592 38.9983 20.0008Z" stroke="#ED1C24" stroke-width="2" />
+											</svg>
+										</a>
+										<a href="https://www.instagram.com/fjordtrans.ua/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+											<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" class="instagram-hero" fill="currentColor">
+												<path d="M39 20C39 30.4935 30.4934 39.0001 20 39.0001C9.50659 39.0001 1 30.4935 1 20C1 9.5066 9.50659 1 20 1C30.4934 1 39 9.5066 39 20Z" stroke="#ED1C24" stroke-width="2" />
+												<path d="M20 10C17.2852 10 16.9453 10.0117 15.8789 10.0586C14.8125 10.1094 14.0898 10.2773 13.4531 10.5234C12.7969 10.7773 12.2383 11.1211 11.6797 11.6758C11.1211 12.2305 10.7812 12.7891 10.5273 13.4492C10.2812 14.0859 10.1133 14.8125 10.0625 15.875C10.0117 16.9414 10.0039 17.2813 10.0039 19.9961C10.0039 22.711 10.0156 23.0508 10.0625 24.1172C10.1133 25.1797 10.2812 25.9063 10.5273 26.543C10.7812 27.1992 11.125 27.7578 11.6797 28.3164C12.2344 28.8711 12.793 29.2149 13.4531 29.4688C14.0898 29.7149 14.8164 29.8828 15.8789 29.9336C16.9453 29.9844 17.2852 29.9922 20 29.9922C22.7148 29.9922 23.0547 29.9805 24.1211 29.9336C25.1836 29.8828 25.9102 29.7149 26.5469 29.4688C27.2031 29.2149 27.7617 28.8711 28.3203 28.3164C28.875 27.7617 29.2188 27.2032 29.4727 26.543C29.7188 25.9063 29.8867 25.1797 29.9375 24.1172C29.9883 23.0508 29.9961 22.711 29.9961 19.9961C29.9961 17.2813 29.9844 16.9414 29.9375 15.875C29.8867 14.8125 29.7188 14.0859 29.4727 13.4492C29.2188 12.793 28.875 12.2344 28.3203 11.6758C27.7656 11.1211 27.207 10.7773 26.5469 10.5234C25.9102 10.2773 25.1836 10.1094 24.1211 10.0586C23.0547 10.0117 22.7148 10 20 10ZM20 11.8008C22.668 11.8008 22.9883 11.8125 24.043 11.8594C25.0195 11.9063 25.5469 12.0664 25.8984 12.207C26.3672 12.3867 26.6992 12.6055 27.0508 12.9531C27.3984 13.3047 27.6172 13.6367 27.7969 14.1055C27.9336 14.457 28.0977 14.9844 28.1406 15.9609C28.1875 17.0156 28.1992 17.332 28.1992 20.0039C28.1992 22.6758 28.1875 22.9922 28.1367 24.0469C28.0859 25.0235 27.9219 25.5508 27.7852 25.9024C27.5977 26.3711 27.3867 26.7031 27.0352 27.0547C26.6875 27.4024 26.3477 27.6211 25.8867 27.8008C25.5352 27.9375 25 28.1016 24.0234 28.1446C22.9609 28.1914 22.6484 28.2032 19.9727 28.2032C17.2969 28.2032 16.9844 28.1914 15.9219 28.1407C14.9453 28.0899 14.4102 27.9258 14.0586 27.7891C13.5859 27.6016 13.2578 27.3907 12.9102 27.0391C12.5586 26.6914 12.3359 26.3516 12.1602 25.8906C12.0234 25.5391 11.8594 25.0039 11.8086 24.0274C11.7695 22.9766 11.7578 22.6524 11.7578 19.9922C11.7578 17.3281 11.7695 17.0039 11.8086 15.9414C11.8594 14.9649 12.0195 14.4297 12.1602 14.0781C12.3359 13.6016 12.5586 13.2773 12.9102 12.9258C13.2578 12.5781 13.5859 12.3516 14.0586 12.1758C14.4102 12.0391 14.9336 11.875 15.9102 11.8242C16.9727 11.7852 17.2852 11.7734 19.9609 11.7734L20 11.8008ZM20 14.8633C17.1641 14.8633 14.8633 17.1641 14.8633 20C14.8633 22.836 17.1641 25.1367 20 25.1367C22.8359 25.1367 25.1367 22.836 25.1367 20C25.1367 17.1641 22.8359 14.8633 20 14.8633ZM20 23.3321C18.1602 23.3321 16.668 21.8399 16.668 20C16.668 18.1602 18.1602 16.668 20 16.668C21.8398 16.668 23.332 18.1602 23.332 20C23.332 21.8399 21.8398 23.3321 20 23.3321ZM26.5391 14.6641C26.5391 15.3281 26 15.8633 25.3398 15.8633C24.6758 15.8633 24.1406 15.3242 24.1406 14.6641C24.1406 14.0039 24.6797 13.4648 25.3398 13.4648C26 13.4609 26.5391 14 26.5391 14.6641Z" fill="#ED1C24" />
+											</svg>
+										</a>
+									</div>
+									<div data-watch class="hero-block__experience experience-hero">
+										<div class="experience-hero__items">
+											<div class="experience-hero__item">
+												<span data-digits-counter>10</span>
+											</div>
+											<img data-src="img/icon/experience.svg" alt="experience">
+											<style>
+												.experience-hero__items img {
+													right: 25px;
+												}
+											</style>
+										</div>
+										<div class="experience-hero__text">
+											<span>years of experience</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="cars">
+					<div class="cars__container">
+						<div class="cars__block block-cars block-cars--flex">
+							<div class="block-cars__number">
+								<div class="block-cars__sub-num">
+									<span>35</span>
+									<p>vehicles</p>
+								</div>
+							</div>
+							<div class="block-cars__images">
+								<picture><source data-srcset="img/hero/Truck@2x.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero/Truck@2x.jpg" alt="true"></picture>
+							</div>
+							<div class="block-cars__numbe">
+								<div class="block-cars__sub-num sub-num-mod">
+									<span>70</span>
+									<p class="number-text">trailers</p>
+								</div>
+							</div>
+							<style>
+								@media (max-width: 767px){
+									.block-cars__sub-num p{
+										margin-top: -49px;
+										margin-left: 31px;
+									}
+									.sub-num-mod p {
+										margin-top: -47px;
+										margin-left: 27px;
+									}
+								}
+							</style>
+						</div>
+					</div>
+				</section>
+				<section class="multimodal">
+					<div class="multimodal__container">
+						<div class="multimodal__title">
+							<h2>Our <span>services</span></h2>
+						</div>
+						<div class="multimodal__block block-multimodal">
+							<div class="block-multimodal__items">
+								<div class="block-multimodal__item">
+									<div class="item-multimodal">
+										<div href="#" class="item-multimodal__link -ibg">
+											<picture>
+												<source srcset="./img/new/15-b.webp 1x, ./img/new/15-b@2x.webp 2x" type="image/webp">
+												<source srcset="./img/new/15-b.png 1x, ./img/new/15-b@2x.png 2x">
+												<!-- default -->
+												<img src="./img/new/15-b.png" alt="picture" loading="lazy">
+									</picture>
+										</div>
+									</div>
+									<div class="item-multimodal__body">
+										<div class="item-multimodal__title">
+											<a href="#">Truck equipment</a>
+										</div>
+										<div class="item-multimodal__text">
+											<p>
+												Transportation of construction equipment, trucks, tractors, and cranes.
+											</p>
+										</div>
+										<button data-popup="#popup" type="submit" class="form-btn">Create an order</button>
+									</div>
+								</div>
+							</div>
+							<div class="block-multimodal__items">
+								<div class="block-multimodal__item">
+									<div class="item-multimodal">
+										<div href="#" class="item-multimodal__link -ibg">
+											<picture>
+												<source srcset="./img/new/1-b.webp 1x, ./img/new/1-b@2x.webp 2x" type="image/webp">
+												<source srcset="./img/new/1-b.png 1x, ./img/new/1-b@2x.png 2x">
+												<!-- default -->
+												<img src="./img/new/1-b.png" alt="picture" loading="lazy">
+											</picture>
+										</div>
+									</div>
+									<div class="item-multimodal__body">
+										<div class="item-multimodal__title">
+											<a href="#">Agricultural machinery</a>
+										</div>
+										<div class="item-multimodal__text">
+											<p>Transportation of agricultural machinery, combines, planters, tractors, etc.</p>
+										</div>
+										<button data-popup="#popup" type="submit" class="form-btn">Create an order</button>
+									</div>
+								</div>
+							</div>
+							<div class="block-multimodal__items block-multimodal--one block-multimodal--two">
+								<div class="block-multimodal__item">
+									<div class="item-multimodal">
+										<div href="#" class="item-multimodal__link -ibg">
+											<picture>
+												<source srcset="./img/new/8-b.webp 1x, ./img/new/8-b@2x.webp 2x" type="image/webp">
+												<source srcset="./img/new/8-b.png 1x, ./img/new/8-b@2x.png 2x">
+												<!-- default -->
+												<img src="./img/new/8-b.png" alt="picture" loading="lazy">
+											</picture>
+										</div>
+									</div>
+									<div class="item-multimodal__body">
+										<div class="item-multimodal__title">
+											<a href="#">Other oversized cargo</a>
+										</div>
+										<div class="item-multimodal__text">
+											<p>Transportation of water and air transport: yachts, motor boats, boats, helicopters and airplanes.
+											</p>
+										</div>
+										<button data-popup="#popup" type="submit" class="form-btn">Create an order</button>
+									</div>
+								</div>
+							</div>
+							<div class="block-multimodal__items block-multimodal--two">
+								<div class="block-multimodal__item">
+									<div class="item-multimodal">
+										<div href="#" class="item-multimodal__link -ibg">
+											<picture>
+												<source srcset="./img/new/11-b.webp 1x, ./img/new/11-b@2x.webp 2x" type="image/webp">
+												<source srcset="./img/new/11-b.png 1x, ./img/new/11-b@2x.png 2x">
+												<!-- default -->
+												<img src="./img/new/11-b.png" alt="picture" loading="lazy">
+											</picture>
+										</div>
+									</div>
+									<div class="item-multimodal__body ">
+										<div class="item-multimodal__title">
+											<a href="#">Cargo tow truck services</a>
+										</div>
+										<div class="item-multimodal__text">
+											<p class="text-none">Transportation of oversized vehicles, in particular, after a traffic accident.</span>
+										</div>
+										<button data-popup="#popup" type="submit" class="form-btn">Create an order</button>
+									</div>
+								</div>
+							</div>
+							<div class="block-multimodal__items block-multimodal--two block-multimodal--one">
+								<div class="block-multimodal__item">
+									<div class="item-multimodal">
+										<div href="#" class="item-multimodal__link -ibg">
+											<picture>
+												<source srcset="./img/new/pilot_new-bs.webp 1x, ./img/new/pilot_new-bs@2x.webp 2x" type="image/webp">
+												<source srcset="./img/new/pilot_new-bs.png 1x, ./img/new/pilot_new-bs@2x.png 2x">
+												<!-- default -->
+												<img src="./img/new/pilot_new-bs.png" alt="picture" loading="lazy">
+											</picture>
+										</div>
+									</div>
+									<div class="item-multimodal__body">
+										<div class="item-multimodal__title">
+											<a href="#">Escorting by undercover vehicle</a>
+										</div>
+										<div class="item-multimodal__text">
+											<p>Escorting large-sized vehicles and special convoys by a undercover vehicle.
+											</p>
+										</div>
+										<button data-popup="#popup" type="submit" class="form-btn">Create an order</button>
+									</div>
+								</div>
+							</div>
+							<div class="block-multimodal__items items-border" style="border-right: none;">
+								<div class="block-multimodal__item item-br-mul">
+									<a href="services-en.html">
+										<svg width="130" height="130" viewBox="0 0 130 130" class="link-services-page" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M42.1186 67.8182H43.983L47.2244 75.733H47.3438L50.5852 67.8182H52.4496V78H50.9879V70.6321H50.8935L47.8906 77.9851H46.6776L43.6747 70.6271H43.5803V78H42.1186V67.8182ZM57.7944 78.1541C57.0785 78.1541 56.4537 77.9901 55.9201 77.6619C55.3865 77.3338 54.9722 76.8748 54.6772 76.2848C54.3822 75.6948 54.2347 75.0054 54.2347 74.2166C54.2347 73.4245 54.3822 72.7318 54.6772 72.1385C54.9722 71.5452 55.3865 71.0845 55.9201 70.7564C56.4537 70.4283 57.0785 70.2642 57.7944 70.2642C58.5103 70.2642 59.135 70.4283 59.6687 70.7564C60.2023 71.0845 60.6166 71.5452 60.9115 72.1385C61.2065 72.7318 61.354 73.4245 61.354 74.2166C61.354 75.0054 61.2065 75.6948 60.9115 76.2848C60.6166 76.8748 60.2023 77.3338 59.6687 77.6619C59.135 77.9901 58.5103 78.1541 57.7944 78.1541ZM57.7993 76.9062C58.2633 76.9062 58.6478 76.7836 58.9527 76.5384C59.2577 76.2931 59.483 75.9666 59.6289 75.5589C59.778 75.1513 59.8526 74.7022 59.8526 74.2116C59.8526 73.7244 59.778 73.277 59.6289 72.8693C59.483 72.4583 59.2577 72.1286 58.9527 71.88C58.6478 71.6314 58.2633 71.5071 57.7993 71.5071C57.332 71.5071 56.9442 71.6314 56.636 71.88C56.3311 72.1286 56.104 72.4583 55.9549 72.8693C55.809 73.277 55.7361 73.7244 55.7361 74.2116C55.7361 74.7022 55.809 75.1513 55.9549 75.5589C56.104 75.9666 56.3311 76.2931 56.636 76.5384C56.9442 76.7836 57.332 76.9062 57.7993 76.9062ZM63.0273 78V70.3636H64.4641V71.5767H64.5436C64.6828 71.1657 64.9281 70.8426 65.2794 70.6072C65.6341 70.3686 66.0351 70.2493 66.4825 70.2493C66.5753 70.2493 66.6847 70.2526 66.8107 70.2592C66.9399 70.2659 67.041 70.2741 67.1139 70.2841V71.706C67.0543 71.6894 66.9482 71.6712 66.7958 71.6513C66.6433 71.6281 66.4908 71.6165 66.3384 71.6165C65.987 71.6165 65.6738 71.6911 65.3987 71.8402C65.127 71.986 64.9115 72.1899 64.7524 72.4517C64.5933 72.7102 64.5138 73.0052 64.5138 73.3366V78H63.0273ZM71.4321 78.1541C70.6797 78.1541 70.0318 77.9934 69.4882 77.6719C68.948 77.3471 68.5303 76.8913 68.2354 76.3047C67.9437 75.7147 67.7979 75.0237 67.7979 74.2315C67.7979 73.4493 67.9437 72.7599 68.2354 72.1634C68.5303 71.5668 68.9413 71.1011 69.4683 70.7663C69.9986 70.4316 70.6184 70.2642 71.3277 70.2642C71.7586 70.2642 72.1762 70.3355 72.5805 70.478C72.9849 70.6205 73.3478 70.8442 73.6693 71.1491C73.9908 71.4541 74.2444 71.8501 74.43 72.3374C74.6156 72.8213 74.7084 73.4096 74.7084 74.1023V74.6293H68.6381V73.5156H73.2517C73.2517 73.1245 73.1721 72.7782 73.0131 72.4766C72.854 72.1716 72.6302 71.9313 72.3419 71.7557C72.0569 71.58 71.7221 71.4922 71.3376 71.4922C70.92 71.4922 70.5554 71.5949 70.2439 71.8004C69.9356 72.0026 69.697 72.2678 69.528 72.5959C69.3623 72.9207 69.2794 73.2737 69.2794 73.6548V74.5249C69.2794 75.0353 69.3689 75.4695 69.5479 75.8274C69.7302 76.1854 69.9837 76.4588 70.3085 76.6477C70.6333 76.8333 71.0128 76.9261 71.447 76.9261C71.7287 76.9261 71.9856 76.8864 72.2176 76.8068C72.4496 76.724 72.6501 76.6013 72.8192 76.4389C72.9882 76.2765 73.1175 76.076 73.207 75.8374L74.6139 76.0909C74.5012 76.5052 74.299 76.8681 74.0074 77.1797C73.719 77.4879 73.3561 77.7282 72.9186 77.9006C72.4844 78.0696 71.9889 78.1541 71.4321 78.1541Z" fill="#595959"/>
+											<path d="M47.6719 94.4929C47.6188 94.0223 47.4001 93.6577 47.0156 93.3991C46.6312 93.1373 46.1473 93.0064 45.5639 93.0064C45.1463 93.0064 44.785 93.0727 44.4801 93.2053C44.1752 93.3345 43.9382 93.5135 43.7692 93.7422C43.6035 93.9676 43.5206 94.2244 43.5206 94.5128C43.5206 94.7547 43.5769 94.9635 43.6896 95.1392C43.8056 95.3149 43.9564 95.4624 44.142 95.5817C44.331 95.6977 44.5331 95.7955 44.7486 95.875C44.964 95.9512 45.1712 96.0142 45.37 96.0639L46.3643 96.3224C46.6892 96.402 47.0223 96.5097 47.3636 96.6456C47.705 96.7815 48.0215 96.9605 48.3132 97.1825C48.6049 97.4046 48.8402 97.6797 49.0192 98.0078C49.2015 98.3359 49.2926 98.7287 49.2926 99.1861C49.2926 99.7628 49.1435 100.275 48.8452 100.722C48.5502 101.17 48.121 101.523 47.5575 101.781C46.9974 102.04 46.3196 102.169 45.5241 102.169C44.7618 102.169 44.1023 102.048 43.5455 101.806C42.9886 101.564 42.5528 101.221 42.2379 100.777C41.9231 100.33 41.7491 99.7992 41.7159 99.1861H43.2571C43.2869 99.554 43.4063 99.8606 43.6151 100.106C43.8272 100.348 44.0973 100.528 44.4254 100.648C44.7569 100.764 45.1198 100.822 45.5142 100.822C45.9484 100.822 46.3345 100.754 46.6726 100.618C47.014 100.479 47.2824 100.286 47.478 100.041C47.6735 99.7926 47.7713 99.5026 47.7713 99.1712C47.7713 98.8696 47.6851 98.6226 47.5128 98.4304C47.3438 98.2382 47.1134 98.0791 46.8217 97.9531C46.5334 97.8272 46.2069 97.7161 45.8423 97.62L44.6392 97.2919C43.8239 97.0698 43.1776 96.7434 42.7003 96.3125C42.2263 95.8816 41.9893 95.3116 41.9893 94.6023C41.9893 94.0156 42.1484 93.5036 42.4666 93.0661C42.7848 92.6286 43.2157 92.2888 43.7592 92.0469C44.3028 91.8016 44.916 91.679 45.5987 91.679C46.2881 91.679 46.8963 91.8 47.4233 92.0419C47.9536 92.2839 48.3712 92.617 48.6761 93.0412C48.9811 93.4621 49.1402 93.946 49.1534 94.4929H47.6719ZM54.3142 102.154C53.5619 102.154 52.9139 101.993 52.3704 101.672C51.8301 101.347 51.4125 100.891 51.1175 100.305C50.8258 99.7147 50.68 99.0237 50.68 98.2315C50.68 97.4493 50.8258 96.7599 51.1175 96.1634C51.4125 95.5668 51.8235 95.1011 52.3505 94.7663C52.8808 94.4316 53.5006 94.2642 54.2098 94.2642C54.6407 94.2642 55.0583 94.3355 55.4627 94.478C55.867 94.6205 56.23 94.8442 56.5515 95.1491C56.873 95.4541 57.1265 95.8501 57.3121 96.3374C57.4977 96.8213 57.5905 97.4096 57.5905 98.1023V98.6293H51.5202V97.5156H56.1339C56.1339 97.1245 56.0543 96.7782 55.8952 96.4766C55.7361 96.1716 55.5124 95.9313 55.224 95.7557C54.939 95.58 54.6043 95.4922 54.2198 95.4922C53.8022 95.4922 53.4376 95.5949 53.126 95.8004C52.8178 96.0026 52.5792 96.2678 52.4101 96.5959C52.2444 96.9207 52.1615 97.2737 52.1615 97.6548V98.5249C52.1615 99.0353 52.251 99.4695 52.43 99.8274C52.6123 100.185 52.8659 100.459 53.1907 100.648C53.5155 100.833 53.895 100.926 54.3292 100.926C54.6109 100.926 54.8678 100.886 55.0998 100.807C55.3318 100.724 55.5323 100.601 55.7013 100.439C55.8704 100.277 55.9996 100.076 56.0891 99.8374L57.4961 100.091C57.3834 100.505 57.1812 100.868 56.8895 101.18C56.6012 101.488 56.2383 101.728 55.8008 101.901C55.3666 102.07 54.8711 102.154 54.3142 102.154ZM59.2539 102V94.3636H60.6906V95.5767H60.7702C60.9094 95.1657 61.1547 94.8426 61.506 94.6072C61.8606 94.3686 62.2617 94.2493 62.7091 94.2493C62.8019 94.2493 62.9113 94.2526 63.0372 94.2592C63.1665 94.2659 63.2676 94.2741 63.3405 94.2841V95.706C63.2808 95.6894 63.1748 95.6712 63.0223 95.6513C62.8699 95.6281 62.7174 95.6165 62.5649 95.6165C62.2136 95.6165 61.9004 95.6911 61.6253 95.8402C61.3535 95.986 61.1381 96.1899 60.979 96.4517C60.8199 96.7102 60.7404 97.0052 60.7404 97.3366V102H59.2539ZM71.406 94.3636L68.6368 102H67.0459L64.2718 94.3636H65.8676L67.8016 100.24H67.8811L69.8101 94.3636H71.406ZM72.817 102V94.3636H74.3035V102H72.817ZM73.5677 93.1854C73.3092 93.1854 73.0871 93.0992 72.9015 92.9268C72.7192 92.7512 72.6281 92.5424 72.6281 92.3004C72.6281 92.0552 72.7192 91.8464 72.9015 91.674C73.0871 91.4983 73.3092 91.4105 73.5677 91.4105C73.8262 91.4105 74.0466 91.4983 74.2289 91.674C74.4145 91.8464 74.5073 92.0552 74.5073 92.3004C74.5073 92.5424 74.4145 92.7512 74.2289 92.9268C74.0466 93.0992 73.8262 93.1854 73.5677 93.1854ZM79.534 102.154C78.7948 102.154 78.1585 101.987 77.6249 101.652C77.0946 101.314 76.6869 100.848 76.4019 100.255C76.1168 99.6617 75.9743 98.9822 75.9743 98.2166C75.9743 97.4411 76.1201 96.7566 76.4118 96.1634C76.7035 95.5668 77.1144 95.1011 77.6448 94.7663C78.1751 94.4316 78.7998 94.2642 79.519 94.2642C80.0991 94.2642 80.6161 94.3719 81.0702 94.5874C81.5242 94.7995 81.8905 95.0978 82.1689 95.4822C82.4506 95.8667 82.618 96.3158 82.671 96.8295H81.2243C81.1448 96.4716 80.9625 96.1634 80.6774 95.9048C80.3957 95.6463 80.0179 95.517 79.5439 95.517C79.1296 95.517 78.7667 95.6264 78.4551 95.8452C78.1469 96.0606 77.9066 96.3688 77.7342 96.7699C77.5619 97.1676 77.4757 97.6383 77.4757 98.1818C77.4757 98.7386 77.5602 99.2192 77.7293 99.6236C77.8983 100.028 78.1369 100.341 78.4452 100.563C78.7567 100.785 79.123 100.896 79.5439 100.896C79.8256 100.896 80.0808 100.845 80.3095 100.742C80.5415 100.636 80.7354 100.485 80.8912 100.29C81.0503 100.094 81.1613 99.8589 81.2243 99.5838H82.671C82.618 100.078 82.4573 100.518 82.1888 100.906C81.9203 101.294 81.5607 101.599 81.11 101.821C80.6625 102.043 80.1372 102.154 79.534 102.154ZM87.5659 102.154C86.8135 102.154 86.1656 101.993 85.622 101.672C85.0818 101.347 84.6641 100.891 84.3692 100.305C84.0775 99.7147 83.9317 99.0237 83.9317 98.2315C83.9317 97.4493 84.0775 96.7599 84.3692 96.1634C84.6641 95.5668 85.0751 95.1011 85.6021 94.7663C86.1324 94.4316 86.7522 94.2642 87.4615 94.2642C87.8924 94.2642 88.31 94.3355 88.7143 94.478C89.1187 94.6205 89.4816 94.8442 89.8031 95.1491C90.1246 95.4541 90.3782 95.8501 90.5638 96.3374C90.7494 96.8213 90.8422 97.4096 90.8422 98.1023V98.6293H84.7719V97.5156H89.3855C89.3855 97.1245 89.3059 96.7782 89.1469 96.4766C88.9878 96.1716 88.764 95.9313 88.4757 95.7557C88.1907 95.58 87.8559 95.4922 87.4714 95.4922C87.0538 95.4922 86.6892 95.5949 86.3777 95.8004C86.0694 96.0026 85.8308 96.2678 85.6618 96.5959C85.496 96.9207 85.4132 97.2737 85.4132 97.6548V98.5249C85.4132 99.0353 85.5027 99.4695 85.6817 99.8274C85.8639 100.185 86.1175 100.459 86.4423 100.648C86.7671 100.833 87.1466 100.926 87.5808 100.926C87.8625 100.926 88.1194 100.886 88.3514 100.807C88.5834 100.724 88.7839 100.601 88.953 100.439C89.122 100.277 89.2513 100.076 89.3407 99.8374L90.7477 100.091C90.635 100.505 90.4328 100.868 90.1412 101.18C89.8528 101.488 89.4899 101.728 89.0524 101.901C88.6182 102.07 88.1227 102.154 87.5659 102.154ZM98.2278 96.228L96.8805 96.4666C96.8241 96.2943 96.7347 96.1302 96.612 95.9744C96.4927 95.8187 96.3303 95.6911 96.1248 95.5916C95.9193 95.4922 95.6625 95.4425 95.3542 95.4425C94.9333 95.4425 94.582 95.5369 94.3002 95.7259C94.0185 95.9115 93.8777 96.1518 93.8777 96.4467C93.8777 96.7019 93.9721 96.9074 94.161 97.0632C94.35 97.219 94.6549 97.3466 95.0758 97.446L96.2889 97.7244C96.9915 97.8868 97.5152 98.1371 97.8599 98.4751C98.2046 98.8132 98.3769 99.2524 98.3769 99.7926C98.3769 100.25 98.2444 100.658 97.9792 101.016C97.7174 101.37 97.3511 101.649 96.8805 101.851C96.4132 102.053 95.8713 102.154 95.2548 102.154C94.3997 102.154 93.702 101.972 93.1617 101.607C92.6215 101.239 92.2901 100.717 92.1674 100.041L93.6042 99.8224C93.6937 100.197 93.8777 100.48 94.1561 100.673C94.4345 100.862 94.7974 100.956 95.2448 100.956C95.7321 100.956 96.1215 100.855 96.4132 100.653C96.7048 100.447 96.8507 100.197 96.8507 99.902C96.8507 99.6634 96.7612 99.4628 96.5822 99.3004C96.4065 99.138 96.1364 99.0154 95.7718 98.9325L94.4792 98.6491C93.7666 98.4867 93.2396 98.2282 92.8982 97.8736C92.5602 97.5189 92.3911 97.0698 92.3911 96.5263C92.3911 96.0755 92.5171 95.6811 92.769 95.343C93.0209 95.005 93.3689 94.7415 93.813 94.5526C94.2571 94.3603 94.7659 94.2642 95.3393 94.2642C96.1646 94.2642 96.8142 94.4432 97.2882 94.8011C97.7621 95.1558 98.0753 95.6314 98.2278 96.228Z" fill="#595959"/>
+											<path d="M58.0393 24H79M79 24V44.9607M79 24C75.814 27.186 61.6725 41.3275 55 48" stroke="#595959" stroke-width="3"/>
+											<rect x="0.5" y="0.5" width="129" height="129" rx="64.5" stroke="#595959"/>
+											</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="you"></div>
+					</div>
+				</section>
+				<section class="about">
+					<div class="about__container">
+						<div class="about__block block-about">
+							<div class="block-about__title">
+								<h3>About <span>us</span></h3>
+							</div>
+							<div class="block-about__items">
+								<div class="block-about__text">
+									<p><span>«Fjordtrans UA»</span> is a company that transports oversized cargo to any corner of Europe and Ukraine. Thanks to the regular collection of motor vehicles, we provide services for the transportation of large-sized cargo, carry out road transportation of oversized cargo and deliver long cargo.</p>
+									<p>The company thinks out all the steps in transportation: planning the route, taking into account fuel consumption, calculating the delivery time, as well as preparing the documentation for the cargo.</p>
+								</div>
+								<div class="block-about__item item-about">
+									<div class="item-about__list">
+										<ul>
+											<li>01 / <span>The newest and one of the largest (35 vehicles) fleets in Ukraine.</span></li>
+											<li>02 / <span>Qualified and experienced staff.</span></li>
+											<li>03 / <span>Offices in Ukraine, Poland and Denmark.</span></li>
+											<li>04 / <span>Security and support of your cargo.</span></li>
+											<li>05 / <span>The trust of large and well-known companies with which we cooperate.</span></li>
+											<li>06 / <span>Availability of all necessary documents for work.</span></li>
+											<li>07 /<span>Preparing all permit documents for you.</span></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="dark">
+					<div class="dark__container">
+						<div class="dark__block block-dark">
+							<div class="block-dark__images">
+								<picture><source data-srcset="img/hero/19-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero/19-b.jpg" alt=""></picture>
+							</div>
+							<div class="block-dark__items">
+								<div class="block-dark__item">
+									<div class="block-dark__icon">
+										<img data-src="img/icon/Connection.svg" alt="Connection">
+									</div>
+									<div class="block-dark__sub-item">
+										<div class="block-dark__title">Professional relationships</div>
+										<div class="block-dark__text">Our team is always ready to provide professional communication and consultation at every stage of transportation. You can count on our support.</div>
+									</div>
+
+								</div>
+								<div class="block-dark__item">
+									<div class="block-dark__icon">
+										<img data-src="img/icon/Time.svg" alt="Connection">
+									</div>
+									<div class="block-dark__sub-item">
+										<div class="block-dark__title">Accuratly and on time</div>
+										<div class="block-dark__text">We understand how important it is for large shipments to be delivered on time. Our company strives to ensure accuracy in the execution of each order.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="park">
+					<div class="park__container">
+						<div class="park__block block-park">
+							<div class="block-park__title">
+								<p>Our <span>fleet</span></p>
+							</div>
+							<div class="block-park__gal">
+								<div class="work__slider swiper">
+									<!-- Частина слайдера, що рухається -->
+									<div data-gallery class="block-park__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<a href="img/Gallery/1-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/1-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/1-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/10-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/10-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy decor-swip" data-src="img/Gallery/10-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/11-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/11-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/11-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/12-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/12-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/12-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/13-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/13-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/13-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/14-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/14-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/14-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/15-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/15-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/15-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/16-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/16-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/16-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/17-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/17-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/17-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/18-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/18-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/18-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/19-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/19-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/19-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/2-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/2-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/2-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/20-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/20-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/20-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/21-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/21-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/21-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/22-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/22-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/22-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/23-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/23-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/23-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/24-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/24-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/24-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/25-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/25-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/25-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/27-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/27-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/27-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/28-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/28-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/28-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/29-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/29-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/29-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/3-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/3-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/3-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/4-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/4-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/4-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/5-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/5-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/5-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/6-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/6-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/6-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/7-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/7-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/7-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/8-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/8-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/8-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/9-b.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/9-b.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/9-b.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/container-bs.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/container-bs.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/container-bs.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/equipment-bs.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/equipment-bs.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/equipment-bs.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/main-bs.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/main-bs.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/main-bs.jpg" alt="Our fleet"></picture>
+										</a>
+										<a href="img/Gallery/wind-bs.jpg" class="work__slide swiper-slide">
+											<picture><source data-srcset="img/Gallery/wind-bs.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="swiper-lazy  decor-swip" data-src="img/Gallery/wind-bs.jpg" alt="Our fleet"></picture>
+										</a>
+
+									</div>
+									<!-- Якщо потрібна пагінація -->
+									<div class="swiper-pagination "> </div>
+
+
+									<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+									<button type="button" class="swiper-button-prev">
+										<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewbox="0 0 88 88" class="arrow-slide" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M37.2703 8.54032C38.6287 7.8611 40.2806 8.41171 40.9598 9.77015L57.4598 42.7702C57.8469 43.5444 57.8469 44.4556 57.4598 45.2298L40.9598 78.2298C40.2806 79.5883 38.6287 80.1389 37.2703 79.4597C35.9118 78.7804 35.3612 77.1286 36.0404 75.7702L51.9255 44L36.0404 12.2298C35.3612 10.8714 35.9118 9.21954 37.2703 8.54032Z" />
+										</svg>
+									</button>
+									<button type="button" class="swiper-button-next">
+										<svg xmlns="http://www.w3.org/2000/svg" width="88" height="88" viewbox="0 0 88 88" class="arrow-slide" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M37.2703 8.54032C38.6287 7.8611 40.2806 8.41171 40.9598 9.77015L57.4598 42.7702C57.8469 43.5444 57.8469 44.4556 57.4598 45.2298L40.9598 78.2298C40.2806 79.5883 38.6287 80.1389 37.2703 79.4597C35.9118 78.7804 35.3612 77.1286 36.0404 75.7702L51.9255 44L36.0404 12.2298C35.3612 10.8714 35.9118 9.21954 37.2703 8.54032Z" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<!-- Оболонка слайдера -->
+
+						</div>
+					</div>
+				</section>
+				<!-- <section class="partners">
+					<div class="partners__container">
+						<div class="partners__block block-partners">
+							<div class="block-partners__title">
+								<p>Our <span>partners</span></p>
+							</div>
+							<div class="block-partners__items">
+								<div class="block-partners__content">
+									<a href="https://www.kuehne-nagel.com" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-1.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.bws.net/" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-2.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.glagencies.com/" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-3.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.dsv.com/" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-31.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-31.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.dhl.com/dk-da/home/vores-afdelinger/fragt.html" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-4.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.sdfgroup.com/en/" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-5.png" alt="partners"></picture>
+									</a>
+									<a href="https://www.freja.com/" target="_blank" class="block-partners__item">
+										<picture><source data-srcset="img/partners/logo-6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/partners/logo-6.png" alt="partners"></picture>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
+				<section class="cargo">
+					<div class="cargo__container">
+						<div class="cargo__blcok blcok-cargo">
+							<div class="blcok-cargo__title">
+								<p>Do you want to transport <span>cargo?</span></p>
+							</div>
+							<div class="blcok-cargo__items">
+								<div class="blcok-cargo__imegas">
+									<picture><source data-srcset="img/hero/gigapixel.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hero/gigapixel.png" alt="gigapixe"></picture>
+								</div>
+								<div class="blcok-cargo__item">
+									<div class="blcok-cargo__text">
+										<p>Write exactly what cargo needs to be transported, when and where, as well as other wishes and features of the cargo if necessary. We will respond as soon as possible.</p>
+									</div>
+									<div class="blcok-cargo__form">
+										<form data-dev data-popup-message="#popup-form" data-ajax action="files/sendmail/sendmail.php" method="POST">
+											<div class="item-contacts__block-form duplicate-flex">
+												<div class="error-name"><input data-error="Enter your name" data-required data-no-focus-classes data-validate id="consultation_name" autocomplete="off" type="text" name="form[name]" placeholder="Full name*" class="consultation__input duplicate"></div>
+
+												<div class="error-mail"><input data-error="Check your email address" data-required data-no-focus-classes data-validate id="consultation_mail" type="text" name="form[email]" placeholder="Email*" class="consultation__input duplicate"></div>
+											</div>
+											<div class="item-contacts__block-form duplicate-flex">
+												<input id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" placeholder="Phone number" class="consultation__input duplicate">
+												<input id="consultation_last-name" autocomplete="off" type="text" name="form[firm]" placeholder="Company name" class="consultation__input duplicate">
+											</div>
+											<textarea id="consultation_text" autocomplete="off" name="form[text]" placeholder="Message" class="consultation__input duplicate"></textarea>
+											<div class="checkbox">
+												<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input " required>
+												<label for="formAgreement" class="checkbox__label duplicate"></label>
+												<label for="" class="checkbox__text"><span>I accept the terms of <a data-popup="#popup-footer-en" href="#">the Privacy Policy</a></span></label>
+											</div>
+											<div class="duplicate-sub-flex social-sub-fix">
+												<button type="submit" class="duplicate-sub-btn">Send an order</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__pb">
+				<div data-goto=".header" class="btn-up">
+					<a href="#" class="btn-up-block">
+						<svg xmlns="http://www.w3.org/2000/svg" width="40" height="80" viewBox="0 0 40 80" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M40 0C29.3913 0 19.2172 4.21427 11.7157 11.7157C4.21428 19.2172 0 29.3913 0 40C0 50.6087 4.21427 60.7828 11.7157 68.2843C19.2172 75.7857 29.3913 80 40 80L40 40V0ZM32.1187 40.6187C31.777 40.9604 31.223 40.9604 30.8813 40.6187L21 30.7374L11.1187 40.6187C10.777 40.9604 10.223 40.9604 9.88128 40.6187C9.53957 40.277 9.53957 39.723 9.88128 39.3813L20.3813 28.8813C20.723 28.5396 21.277 28.5396 21.6187 28.8813L32.1187 39.3813C32.4604 39.723 32.4604 40.277 32.1187 40.6187ZM30.8813 47.6187C31.223 47.9604 31.777 47.9604 32.1187 47.6187C32.4604 47.277 32.4604 46.723 32.1187 46.3813L21.6187 35.8813C21.277 35.5396 20.723 35.5396 20.3813 35.8813L9.88128 46.3813C9.53957 46.723 9.53957 47.277 9.88128 47.6187C10.223 47.9604 10.777 47.9604 11.1187 47.6187L21 37.7374L30.8813 47.6187Z" fill="#E04D53" />
+						</svg>
+					</a>
+				</div>
+				<div class="footer__container">
+					<div class="footer__block block-footer">
+						<div class="block-footer__policy">
+							<p>© 2023 <span>𐤟</span>Fjordtrans UA<span>𐤟</span><a data-popup="#popup-footer-en" href="#">Privacy Policy</a></p>
+						</div>
+						<div data-da=".social-sub-fix,767.98" class="block-footer__rights">
+							<div class="rights-footer">
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" class="facebook mob" fill="currentColor">
+										<path d="M38.9983 20.0008V20.2551C38.8807 29.2181 32.5554 36.6849 24.126 38.5505V26.7827H27.7862H28.6445L28.7746 25.9343L29.6613 20.1524L29.8379 19.0008H28.6729H24.126V16.2473C24.126 15.6018 24.2858 15.0872 24.5804 14.7465C24.8515 14.4329 25.36 14.1239 26.3844 14.1239H28.9045H29.9045V13.1239V8.20199V7.358L29.0725 7.21621L28.9045 8.20199C29.0725 7.21621 29.0725 7.21619 29.0724 7.21618L29.0721 7.21614L29.0715 7.21603L29.0696 7.21572L29.0634 7.21467L29.0413 7.21098L28.9595 7.19772C28.8889 7.18646 28.7869 7.1706 28.6582 7.15169C28.401 7.11387 28.0361 7.0637 27.6013 7.01357C26.736 6.9138 25.575 6.81198 24.4277 6.81198C21.9422 6.81198 19.7764 7.5691 18.2308 9.11612C16.6843 10.6642 15.874 12.8876 15.874 15.594V18.9991H11.7972H10.7972V19.9991V25.781V26.781H11.7972H15.874V38.5488C7.36498 36.6656 1 29.0749 1 20.0008C1 9.50592 9.50604 1 19.9992 1C30.4923 1 38.9983 9.50592 38.9983 20.0008Z" stroke="#ED1C24" stroke-width="2" />
+									</svg>
+								</a>
+								<a href="https://www.instagram.com/fjordtrans.ua/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+									<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" class="instagram mob" fill="currentColor">
+										<path d="M39 20C39 30.4935 30.4934 39.0001 20 39.0001C9.50659 39.0001 1 30.4935 1 20C1 9.5066 9.50659 1 20 1C30.4934 1 39 9.5066 39 20Z" stroke="#ED1C24" stroke-width="2" />
+										<path d="M20 10C17.2852 10 16.9453 10.0117 15.8789 10.0586C14.8125 10.1094 14.0898 10.2773 13.4531 10.5234C12.7969 10.7773 12.2383 11.1211 11.6797 11.6758C11.1211 12.2305 10.7812 12.7891 10.5273 13.4492C10.2812 14.0859 10.1133 14.8125 10.0625 15.875C10.0117 16.9414 10.0039 17.2813 10.0039 19.9961C10.0039 22.711 10.0156 23.0508 10.0625 24.1172C10.1133 25.1797 10.2812 25.9063 10.5273 26.543C10.7812 27.1992 11.125 27.7578 11.6797 28.3164C12.2344 28.8711 12.793 29.2149 13.4531 29.4688C14.0898 29.7149 14.8164 29.8828 15.8789 29.9336C16.9453 29.9844 17.2852 29.9922 20 29.9922C22.7148 29.9922 23.0547 29.9805 24.1211 29.9336C25.1836 29.8828 25.9102 29.7149 26.5469 29.4688C27.2031 29.2149 27.7617 28.8711 28.3203 28.3164C28.875 27.7617 29.2188 27.2032 29.4727 26.543C29.7188 25.9063 29.8867 25.1797 29.9375 24.1172C29.9883 23.0508 29.9961 22.711 29.9961 19.9961C29.9961 17.2813 29.9844 16.9414 29.9375 15.875C29.8867 14.8125 29.7188 14.0859 29.4727 13.4492C29.2188 12.793 28.875 12.2344 28.3203 11.6758C27.7656 11.1211 27.207 10.7773 26.5469 10.5234C25.9102 10.2773 25.1836 10.1094 24.1211 10.0586C23.0547 10.0117 22.7148 10 20 10ZM20 11.8008C22.668 11.8008 22.9883 11.8125 24.043 11.8594C25.0195 11.9063 25.5469 12.0664 25.8984 12.207C26.3672 12.3867 26.6992 12.6055 27.0508 12.9531C27.3984 13.3047 27.6172 13.6367 27.7969 14.1055C27.9336 14.457 28.0977 14.9844 28.1406 15.9609C28.1875 17.0156 28.1992 17.332 28.1992 20.0039C28.1992 22.6758 28.1875 22.9922 28.1367 24.0469C28.0859 25.0235 27.9219 25.5508 27.7852 25.9024C27.5977 26.3711 27.3867 26.7031 27.0352 27.0547C26.6875 27.4024 26.3477 27.6211 25.8867 27.8008C25.5352 27.9375 25 28.1016 24.0234 28.1446C22.9609 28.1914 22.6484 28.2032 19.9727 28.2032C17.2969 28.2032 16.9844 28.1914 15.9219 28.1407C14.9453 28.0899 14.4102 27.9258 14.0586 27.7891C13.5859 27.6016 13.2578 27.3907 12.9102 27.0391C12.5586 26.6914 12.3359 26.3516 12.1602 25.8906C12.0234 25.5391 11.8594 25.0039 11.8086 24.0274C11.7695 22.9766 11.7578 22.6524 11.7578 19.9922C11.7578 17.3281 11.7695 17.0039 11.8086 15.9414C11.8594 14.9649 12.0195 14.4297 12.1602 14.0781C12.3359 13.6016 12.5586 13.2773 12.9102 12.9258C13.2578 12.5781 13.5859 12.3516 14.0586 12.1758C14.4102 12.0391 14.9336 11.875 15.9102 11.8242C16.9727 11.7852 17.2852 11.7734 19.9609 11.7734L20 11.8008ZM20 14.8633C17.1641 14.8633 14.8633 17.1641 14.8633 20C14.8633 22.836 17.1641 25.1367 20 25.1367C22.8359 25.1367 25.1367 22.836 25.1367 20C25.1367 17.1641 22.8359 14.8633 20 14.8633ZM20 23.3321C18.1602 23.3321 16.668 21.8399 16.668 20C16.668 18.1602 18.1602 16.668 20 16.668C21.8398 16.668 23.332 18.1602 23.332 20C23.332 21.8399 21.8398 23.3321 20 23.3321ZM26.5391 14.6641C26.5391 15.3281 26 15.8633 25.3398 15.8633C24.6758 15.8633 24.1406 15.3242 24.1406 14.6641C24.1406 14.0039 24.6797 13.4648 25.3398 13.4648C26 13.4609 26.5391 14 26.5391 14.6641Z" fill="#ED1C24" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="consultation__popup popup">
+		<div class="consultation__wrapper popup__wrapper">
+			<div class="consultation__content popup__content">
+				<button data-close type="button" class="popup__close _icon-property"></button>
+				<div class="consultation__body popup__text">
+					<div class="consultation__title">
+						<span>Do you want to transport cargo?</span>
+					</div>
+					<div class="consultation__text">
+						<span>Write exactly what cargo needs to be transported, when and where, as well as other wishes and features of the cargo if necessary. We will respond as soon as possible.</span>
+					</div>
+					<div class="consultation__form">
+						<form data-dev data-popup-message="#popup-form" data-ajax action="files/sendmail/sendmail.php" method="POST">
+							<div class="item-contacts__block-form">
+								<div class="error-name"><input data-error="Enter your name" data-required data-no-focus-classes data-validate id="consultation_name" autocomplete="off" type="text" name="form[name]" placeholder="Full name*" class="consultation__input"></div>
+
+								<div class="error-mail"><input data-error="Check your email address" data-required data-no-focus-classes data-validate id="consultation_mail" type="text" name="form[email]" placeholder="Email*" class="consultation__input "></div>
+							</div>
+							<div class="item-contacts__block-form">
+								<input id="consultation_phone" autocomplete="off" type="tel" name="form[phone]" placeholder="Phone number" class="consultation__input">
+								<input id="consultation_last-name" autocomplete="off" type="text" name="form[firm]" placeholder="Company name" class="consultation__input">
+							</div>
+							<textarea id="consultation_text" autocomplete="off" name="form[text]" placeholder="Message" class="consultation__input"></textarea>
+							<div class="checkbox">
+								<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input " required>
+								<label for="formAgreement" class="checkbox__label"></label>
+								<label for="" class="checkbox__text"><span>I accept the terms of <a data-popup="#popup-footer-en" href="#">the Privacy Policy</a></span></label>
+							</div>
+							<div class="consultation__bnt">
+								<button type="submit" class="form-btn">Send an order</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-form" aria-hidden="true" class="letter popup">
+		<div class="letter__wrapper popup__wrapper">
+			<div class="letter__content popup__content">
+				<div class="letter__block">
+					<button data-close type="button" class="popup__close _icon-property"></button>
+				</div>
+				<div class="letter__items items-letter">
+					<div class="items-letter__title">Congratulations</div>
+					<div class="items-letter__img"><img src="img/icon/envelope.svg" alt=""></div>
+					<div class="items-letter__text">Your order has been successfully sent. Wait for our manager's response.</div>
+				</div>
+				<div class="items-letter__bnt">
+					<a href="index-en.html" type="submit" class="items-letter__button letter-btn">Back to home page</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-footer-en" aria-hidden="true" class="policy__popup popup">
+		<div class="policy__wrapper popup__wrapper">
+			<div class="policy__contant popup__content">
+				<div class="policy__block">
+					<button data-close type="button" class="popup__close policy--close _icon-property"></button>
+				</div>
+				<div class="policy__text popup__text">
+					<div class="policy__title">
+						<p>PRIVACY POLICY AND COOKIES</p>
+					</div>
+					<div class="policy__sub-text">
+
+						<li>
+							The privacy of visitors to our website www.fjordtrans.com.ua is very important to us and we are committed to protecting it. The processing of personal data, including your name, address, email address or telephone number, will comply with the General Data Protection Regulation (GDPR) and other data protection regulations applicable to www.fjordtrans.com.ua. By using our website, you automatically agree to the following terms and conditions. If you disagree with any of the statements in this document, please contact us before using our website. We have the right to change our privacy policy without prior notice. Therefore, we advise all users to check this page regularly and be aware of its latest version.
+
+						</li>
+						<ul>
+							<li>
+								<p>1. TERMS AND DEFINITIONS</p>
+							</li>
+							<li>1.1. "Website" (here in after referred to as the "Website") is an information resource on the Internet located at the address www.fjordtrans.com.ua and containing text, graphic and other information that is perceived as a whole and supported by a set of system software tools.</li>
+						<li>	1.2. "Website Owner" (hereinafter referred to as the "Owner") means Fjordtrans UA Limited Liability Company, which is the owner and administrator of the personal data of the Website Users.</li>
+						<li>	1.3. "User" is any individual who has ever accessed the Website and has reached the age of 18.</li>
+							<li>1.4. "Personal data" are information or a set of information about the User that is identified or can be specifically identified.</li>
+							<li>1.5. "Services" (Website services) - any services offered on the Owner's Website and include video production, industry special projects, direct and indirect advertising, etc.</li>
+						</ul>
+
+						<ul>
+							<li>
+								<p>2. COLLECTION AND USE OF PERSONAL DATA</p>
+							</li>
+							<li>2.1. Use of the Site does not require registration and/or authorization and direct provision of personal data that can identify you.</li>
+<li>2.2. When using the Site, we may automatically collect information related to your use of the Site.</li>
+<li>2.3. We may collect, store and use the following types of your personal data:</li>
+<li>2.3.1. information about your computer, including IP address, geographic location, browser type and version, and operating system;</li>
+<li>2.3.2. information about your visits to and use of this Site, including the source of referrals, the duration of your visit, the pages you view and the navigation routes on the Site;</li>
+<li>2.3.3. information such as name and e-mail address that you enter to subscribe to our e-mails and/or newsletters;</li>
+<li>2.3.4. information that you enter when using the services on our Site;</li>
+<li>2.3.5. information that is generated when you use our Website, in particular, when, how often and under what circumstances you use it;</li>
+<li>2.3.6. information related to the ordered services on the Website;</li>
+<li>2.3.7. information contained in any messages you send to us by e-mail or through our Website, including its content and metadata;</li>
+<li>2.3.8. any other personal information you send to us.</li>
+<li>2.4. Before you provide us with the personal information of another person, you must obtain the consent of that person to both disclose and process that personal information in accordance with this Policy.</li>
+<li>
+	2.5. When you visit the Website, a connection is established, data on the Website is accessed and a log file is created. It may contain:
+	- date and time of access to the Website;
+	- IP address from which the Website was accessed;
+	- data or file name of the file you accessed on the Site;
+	- the amount of time spent on the Website;
+	- name and version of your web browser, your operating system;
+	- the name of the website from which you came to the Site.
+	This information is used to improve the performance of the Website, for security reasons, to ensure the stability of the Website, and to protect the Website from possible external attacks. In addition, we may perform statistical analysis of this data. The data stored in the log file does not allow us to identify you personally. The data in the log file is used only for the p urpose specified in this Policy and is not transferred to third parties, except as provided for in clause 7.2 of the Policy.
+</li>
+<li>2.6.We collect only those personal data that are knowingly and voluntarily provided by you as a personal data subject for the purpose of using the services of the Site, which in accordance with the requirements of the current legislation of Ukraine is the consent of the personal data subject to the processing of their personal data in accordance with the purpose of their processing stated in this Policy.</li>
+<li>2.7. We guarantee that we will not sell or lease the User's personal data to third parties, except when disclosure of your personal data is necessary to comply with the requirements of the current legislation of Ukraine.</li>
+<li>2.8. We do not collect or process information about your personal data regarding racial or ethnic origin, political, religious or ideological beliefs, membership in political parties and trade unions, criminal convictions, as well as data related to health, sexual life, biometric or genetic data (in accordance with Article 7 of the Law of Ukraine "On Personal Data Protection").</li>
+
+						</ul>
+
+						<ul>
+							<li>
+								<p>3. PROCESSING OF PERSONAL DATA</p>
+							</li>
+							<li>3.1 Processing and storage of personal data is carried out in data centers where the equipment that ensures the functioning of the Website services is located. The provided personal data is processed and may be stored in the Personal Database or a separate table of the Website Database.
+							</li>
+						</ul>
+
+						<ul>
+							<li>
+								<p>4. CASES OF USE OF PERSONAL DATA</p>
+							</li>
+							<li>4.1 We need personal information of users mainly when we need to determine their identity for the accurate processing of orders on the Site, for example, when they order services.</li>
+							<li>4.2 Other legitimate uses include, but are not limited to, the following cases:</li>
+							<li>4.2.1. providing the services presented on the Site;</li>
+							<li>4.2.2. sharing company news, sales, special offers and updates of the Website/services;</li>
+							<li>4.2.2. verifying the actions of users on our websites to identify potentially fraudulent activities and ensure compliance with the terms and conditions for users applicable to the Website;</li>
+							<li>4.2.3. responding to comments or requests from users on the Site when we ask them to provide feedback or opinions through surveys;</li>
+							<li>4.2.4. use of personalized advertising and display of personalized content based on user preferences;</li>
+						<li>	4.2.5. contacting users for informational purposes;</li>
+							<li>4.2.6. improving the interface of the Website, the quality of services; </li>
+							<li>4.2.7. other types of use.</li>
+							<li>4.3. We may use the personal information of users when they give us consent:</li>
+							<li>4.3.1. to provide them with marketing information about products and services that may be of interest to them;</li>
+							<li>4.3.2. to change/customize our offers and the layout of the Website using cookies, for example, advertisements that appear on the Website can be adapted to provide users with a personalized experience.</li>
+							<li>4.4. Users can change their mind at any time and ask us to delete their personal information by sending a request to denys@fjordtrans.com</li>
+							
+						</ul>
+
+						<ul>
+							<li>
+								<p>5. PERSONAL DATA RETENTION PERIOD</p>
+							</li>
+							<li>5.1. Personal data is stored for no longer than necessary in accordance with the purpose of its processing.
+							</li>
+						</ul>
+
+						<ul>
+							<li>6. INTERACTION OF THE SITE WITH OTHER RESOURCES</li>
+						<li>	6.1. When you use the services, the pages of the Site may contain codes of other Internet resources and third parties, as a result of which such Internet resources and third parties receive your data. These Internet resources may receive and process information that you have visited these pages, as well as other information transmitted by your browser.</li>
+<li>6.2. The use of such services is necessary for the operational analysis of visits to the Site, internal and external evaluation of the Site's traffic, the depth of views, and user activity. We do not store or process the data received from these services.</li>
+							
+						</ul>
+
+
+						<ul>
+							<li>
+								<p>7. INTERACTION OF THE OWNER WITH THIRD PARTIES REGARDING PERSONAL DATA
+								</p>
+							</li>
+						<li>	7.1. We do not transfer personal data to third parties, except when such transfer is required by the current legislation of Ukraine, at the request of the personal data subject or in other cases set forth in this Policy. We understand that personal information is a value and inalienable content, in particular, the personal non-property rights of any individual, so we take all possible measures to protect your personal information.</li>
+							<li>7.2. Access to your personal data may be granted to our authorized employees who have agreed to ensure the confidentiality of personal data of users, as well as to third parties who provide us with support and administration services for the Website, other services related to the Owner's business activities. Our authorized employees and/or third parties, on the basis of agreements concluded with us, undertake to comply with all requirements of the current legislation of Ukraine regarding the protection of personal data of users and their confidentiality.</li>
+							<li>7.3. The Website may contain links to other websites (for informational purposes only). If you follow a link to other websites, this Policy will not apply to such websites. In this regard, we recommend that you review the privacy and personal data policy of each website before submitting any personal data by which you can be identified.</li>
+							<li>7.4. The personal information you post on our Site may be accessible via the Internet worldwide. We cannot prevent the use and misuse of such information by third parties in other countries.</li>
+							
+						</ul>
+
+
+						<ul>
+							<li>
+								<p>8. PROTECTION OF PERSONAL DATA</p>
+							</li>
+						<li>	8.1. We use generally accepted standards of technological and operational protection of information and personal data against loss, misuse, alteration or destruction, but we do not guarantee absolute protection against any threats arising outside our control.</li>
+							<li>8.2. We ensure that all relevant confidentiality obligations, as well as technical and organizational security measures are in place to prevent unauthorized or unlawful disclosure or processing of such information and data, their accidental loss, destruction or damage.</li>
+<li>8.3. We have the right to disseminate personal data without your consent in the case determined by the current legislation of Ukraine and only (if necessary) in the interests of national security, economic welfare and human rights.</li>
+							
+						</ul>
+
+						<ul>
+							<li>
+								<p>9. CONDITIONS OF ACCESS TO PERSONAL DATA
+								</p>
+							</li>
+							<li>9.1. The procedure for access to personal data by third parties is determined by the terms of the user's consent provided to the Owner to process this data, or in accordance with the requirements of the law.</li>
+<li>							9.2. You have the right to receive any information about yourself from any subject of relations related to personal data, provided that you indicate your surname, name and patronymic, place of residence (place of stay) and details of the document certifying the individual submitting the request, except in cases established by the current legislation of Ukraine.</li>
+							<li>9.3. Access to data about yourself is free of charge. Deferral of access to personal data is not allowed. Deferral of access to personal data by third parties is allowed if the necessary data cannot be provided within thirty calendar days from the date of receipt of the request. In this case, the total period for resolving the issues raised in the request may not exceed forty-five calendar days.</li>
+							<li>9.4. The notice of postponement shall be communicated to the third party who submitted the request in writing with an explanation of the procedure for appealing such decision.</li>
+							<li>9.5. Denial of access to personal data is allowed in accordance with the procedure established by the current legislation of Ukraine, if access to them is prohibited in accordance with the Law of Ukraine "On Personal Data Protection".</li>
+							<li>9.6. The decision to postpone or deny access to personal data may be appealed to the Ukrainian Parliament Commissioner for Human Rights or the court.</li>
+							
+						</ul>
+
+
+						<ul>
+							<li>
+								<p>10. YOUR RIGHTS AS A USER (PERSONAL DATA SUBJECT)
+								</p>
+							</li>
+							<li>10.1. As a user (personal data subject), you have the right:</li>
+<li>1) to know about the sources of collection, location of your personal data, the purpose of their processing, the location of the Owner or to give an appropriate order to authorized persons to receive this information, except in cases established by the Law of Ukraine "On Personal Data Protection"</li>
+<li>2) to receive information on the conditions for granting access to personal data, in particular, information about third parties to whom personal data is transferred;</li>
+<li>3) to access your own personal d             ata;</li>
+<li>4) to receive a response on whether your personal data is processed no later than thirty calendar days from the date of receipt of the request, except in cases provided for by the Law of Ukraine "On Personal Data Protection", as well as to receive the content of such personal data;</li>
+<li>5) to submit a reasoned request to the Owner with an objection to the processing of your personal data;</li>
+<li>6) to submit a reasoned request for the Owner to change or destroy their personal data if such data is processed illegally or is unreliable;</li>
+<li>7) to protect your personal data from unlawful processing and accidental loss, destruction, damage due to intentional concealment, failure to provide or untimely provision of such data, as well as to protect against the provision of information that is inaccurate or defamatory of your honor, dignity and business reputation;</li>
+<li>8) file complaints about the processing of your personal data to the Ukrainian Parliament Commissioner for Human Rights or to the court;</li>
+<li>9) apply for legal remedies in case of violation of the current legislation of Ukraine on personal data protection;</li>
+<li>10) to make reservations regarding the restriction of the right to process their personal data when giving consent;</li>
+<li>11) withdraw consent to the processing of personal data;</li>
+<li>12) to know the mechanism of automatic processing of personal data;</li>
+<li>13) to be protected against an automated decision that has legal consequences for him/her.</li>
+						</ul>
+						<ul>
+							<li>
+								<p>11. COOKIE FILES
+								</p>
+							</li>
+							<li>11.1. The Website uses cookies. A cookie is a file containing an identifier (a string of letters and numbers) that a web server sends to a web browser and is stored by the browser. The identifier is then sent back to the server each time the browser requests a page from the server. Cookies generally do not contain any information that personally identifies you, but the personal information we hold about you may be linked to information stored and retrieved from cookies.</li>
+<li>							11.2. The names of the cookies we use on the Site and the purposes for which they are used are set out below:</li>
+							<li>11.2.1. to provide users with access to all functions of the Website, as well as to analyze, personalize and improve the user experience;</li>
+							<li>11.2.2. We use Google Analytics on the Website to recognize the computer when the User visits the Website.</li>
+							<li>11.3. We activate all cookies by default to ensure the proper functioning of our website, advertising and analytics. All users can customize their cookie settings and refuse analytical and advertising cookies in accordance with the General Data Protection Regulation (GDPR) and other data privacy laws. Essential cookies are always enabled to ensure that the services and resources requested are provided.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
